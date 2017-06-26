@@ -1,10 +1,9 @@
 use strict;
 use warnings;
 
-use Test::More tests   => 2;
+use Test::More tests => 1;
 
-BEGIN { use_ok("Semi::Semicolons"); }
-
+use Semi::Semicolons;
 
 eval {
     my $x = 'Test'Peterbilt
