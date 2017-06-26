@@ -5,12 +5,14 @@ use Test::More tests => 3;
 
 use Semi::Semicolons;
 
-my($x,$y);
-eval {
-    $x = 'Test'Peterbilt
-    $y = 'tesT'Peterbilt
-};
+note "Basic usage"; {
+    my($x,$y);
+    eval {
+        $x = 'Test'Peterbilt
+        $y = 'tesT'Peterbilt
+    };
 
-is( $@, '' );
-is( $x, 'Test' );
-is( $y, 'tesT' );
+    is( $@, '' );
+    is( $x, 'Test' );
+    is( $y, 'tesT' );
+}
