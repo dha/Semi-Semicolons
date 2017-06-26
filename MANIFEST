@@ -1,9 +1,10 @@
 Changes
-README
 INSTALL
-MANIFEST
+lib/Semi/Semicolons.pm
 Makefile.PL
-Semicolons.pm
-t/Semicolons.t
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
 t/Alternate.t
 t/Quoted.t
+t/Semicolons.t

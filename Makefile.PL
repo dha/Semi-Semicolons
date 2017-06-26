@@ -29,6 +29,6 @@ CHANGE_WARN
 
 WriteMakefile(
       NAME              => $PACKAGE,
-      VERSION_FROM      => "$PACKAGE_FILE.pm", # finds $VERSION
+      VERSION_FROM      => "lib/Semi/$PACKAGE_FILE.pm", # finds $VERSION
       PREREQ_PM         => { Filter::Simple => 0 },
 );
