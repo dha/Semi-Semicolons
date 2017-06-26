@@ -14,7 +14,7 @@ sub import {
 }
 
 FILTER_ONLY code => sub {
-    s/$term/;/g;
+    s/\Q$term\E/;/g;
 };
 
 return <<'';
