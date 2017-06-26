@@ -1,13 +1,16 @@
 use strict;
 use warnings;
 
-use Test::More tests => 1;
+use Test::More tests => 3;
 
 use Semi::Semicolons;
 
+my($x,$y);
 eval {
-    my $x = 'Test'Peterbilt
-    my $y = 'tesT'Peterbilt
+    $x = 'Test'Peterbilt
+    $y = 'tesT'Peterbilt
 };
 
 is( $@, '' );
+is( $x, 'Test' );
+is( $y, 'tesT' );
